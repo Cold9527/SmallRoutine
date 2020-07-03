@@ -1,0 +1,11 @@
+<!--components/book/book.wxml-->
+<view bind:tap="onTap" class="container">
+  <image src="{{book.image}}"></image>
+  <view class="description">
+    <text class="title">{{book.title}}</text>
+    <text class="title">{{book.author}}</text>
+    <view class="foot">
+      <text wx:if="{{book.fav_nums}}" class="title">{{book.fav_nums}} 喜欢</text>
+    </view>
+  </view>
+</view>

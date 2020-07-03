@@ -1,0 +1,25 @@
+.nav{
+  width: 36rpx;  
+  margin: 0 auto;  
+  line-height: 50rpx;  
+  color: #fff;
+  word-wrap: break-word;
+  position: relative;
+  padding-top: 250rpx;
+}
+.avatar-position{
+  position: absolute;
+  top: 70rpx;
+  left: -50rpx;
+}
+page{
+  background-color:#000;
+}
+
+.avatar{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  /* margin-bottom: 10rpx; */
+}
